@@ -1,6 +1,8 @@
 # Todo Web App
 
 This is an easy Todo Web application working with my-sql and php.
+I use this app in a local server to remind me what to do.
+You can add to this web-app the Weather-App.
 
 # How i can use it?
 
