@@ -1,0 +1,89 @@
+body{
+	margin: 0px;
+}
+
+.header{
+	width:100%;
+	margin:30px auto;
+	text-align: center;
+	color: white;
+	background: #283593;
+	border:4px solid #283593;
+	border-radius: 0px;
+}
+
+form{
+	width:50%;
+	margin:30px auto;
+	border-radius: 5px;
+	padding:auto;
+	background: #9FA8DA;
+	border:1px solid #9FA8DA;
+}
+
+form p{
+	color: red;
+	margin: 0px;
+}
+
+.task_input{
+	width: 73%;
+	height: 15px;
+	padding:10px;
+	border: 2px solid #9FA8DA;
+}
+
+.add_btn{
+	height: 39px;
+	background: #283593;
+	color: white;
+	border: 2px solid #9FA8DA;
+	border-radius:5px;
+	padding: 5px 40px;
+}
+
+.add_btn:hover{
+	background: #3F51B5;
+}
+
+table{
+	width: 50%;
+	margin:30px auto;
+	border-collapse: collapse;
+	overflow: auto;
+	text-align: center;
+}
+tr{
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th{
+	font-size: 19px;
+	color: #283593;
+}
+
+th, td{
+	border: none;
+	height: 30px;
+	padding: 2px;
+}
+
+tr:hover{
+	background: #E9E9E9;
+}
+
+.task{
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+
+.delete a{
+	color: white;
+	background: red;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration:none;
+}
