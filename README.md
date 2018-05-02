@@ -8,5 +8,7 @@ You can add to this web-app the Weather-App.
 
 To make it work you have to set-up your database.
  - make a database called Todo
- - Todo must have 2 collumn : id and task
+ - The table must be tasks and have 2 collumn
+ - The first collumn is "id"
+ - The second collumn is "task" and must be VARCHAR
  - Change on the index.php the database access information

@@ -1,7 +1,7 @@
 <?php
 	$errors = "";
 
-	$db = mysqli_connect('localhost', 'root', 'raspberry', 'todo');
+	$db = mysqli_connect('localhost', 'root', '', 'todo');
 	if(isset($_POST['submit'])){
 		$task = $_POST['task'];
 		if(empty($task)){
